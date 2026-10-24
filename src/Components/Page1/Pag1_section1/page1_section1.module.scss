@@ -1,0 +1,36 @@
+.sect1{
+    width: 99.2vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    .big_container{
+        width: 1240px;
+        height: 459px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1vh;
+        background: linear-gradient(150deg, #FFC960, #F3A712);
+        .left_container{
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            .container{
+                width: 60vw;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                .block{
+                    div{
+                    img{
+                        
+                        background-color:#FFC960;
+                    }
+                }
+                }
+            }
+        }
+    }
+}

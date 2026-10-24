@@ -1,0 +1,29 @@
+  header{
+    width: 99.2vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #F4F7FB;
+    nav{
+        width: 80vw;
+        height: 2vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        ul{
+            width: 82vw;
+            display: flex;
+            justify-content: space-around;
+            li {
+                list-style: none;
+               a{
+                font-size: 18px;
+                 text-decoration: none;
+                 color: #282739;
+                 font-weight: 500;
+               }
+            }
+        }
+    }
+}
